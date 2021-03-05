@@ -35,6 +35,6 @@ You can find the key map [here](../map.json).
     "r": "t",
     "t": "y",
     "y": "u",
-
-...
+    ...
+}
 ```
