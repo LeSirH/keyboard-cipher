@@ -1,0 +1,24 @@
+{
+  "name": "keyboard-cipher",
+  "version": "1.0.0",
+  "description": "Keyboard shift cipher.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeSirH/keyboard-cipher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeSirH/keyboard-cipher/issues"
+  },
+  "homepage": "https://github.com/LeSirH/keyboard-cipher#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
