@@ -1,8 +1,9 @@
 # Keyboard Cipher
+A keyboard shift cipher.
 
 ## Getting Started
 1. Fork the repository.
-2. Clone the forked repository
+2. Clone the forked repository.
 ```bash
 git clone git@github.com:GITHUB_USERNAME/keyboard-cipher.git
 ```
