@@ -21,6 +21,11 @@ readFile(filePath, data => {
 
     for (const key of plainTextMap) {
         const shiftedKey = keyMap[key];
+
+        if (shiftedKey === undefined) {
+            throw Error(`Unknown key: ${key}`);
+        }
+
         cipherText = `${cipherText}${shiftedKey}`;
     }
 
