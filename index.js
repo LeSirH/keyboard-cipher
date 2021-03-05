@@ -1,6 +1,7 @@
 const fs = require('fs');
+const prompt = require('prompt-sync')();
 
-const plainText = 'hello world';
+const plainText = prompt('Plaintext: ');
 const filePath = './map.json';
 
 const readFile = (filePath, callback) => {
