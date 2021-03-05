@@ -1,8 +1,11 @@
 const fs = require('fs');
+const _ = require("lodash");
 const prompt = require('prompt-sync')();
 
 const plainText = prompt('Plaintext: ');
 const filePath = './map.json';
+
+const direction = prompt('Left Shift/Right Shift (l/r) : ');
 
 const readFile = (filePath, callback) => {
     const data = fs.readFile(filePath, 'utf8', (err, data) => {
@@ -14,8 +17,9 @@ const readFile = (filePath, callback) => {
     });
 }
 
-readFile(filePath, data => {
-    const keyMap = data;
+readFile(filePath, data => {  
+    const keyMap = (direction.toUpperCase() === 'L') ? _.invert(data) : data;
+
     const plainTextMap = plainText.split('');
     let cipherText = '';
 
