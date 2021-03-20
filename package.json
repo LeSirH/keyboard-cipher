@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/LeSirH/keyboard-cipher.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["keyboard", "cipher", "keyboard-cipher"],
+  "author": "LeSirH",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LeSirH/keyboard-cipher/issues"
