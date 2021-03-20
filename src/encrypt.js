@@ -1,4 +1,4 @@
-const _ = require("lodash");
+const _ = require('lodash');
 const readJSON = require('../lib/readJSON');
 
 module.exports = (plaintext, direction='right') => {
@@ -9,7 +9,7 @@ module.exports = (plaintext, direction='right') => {
     }
 
     const cipherText = [];
-    const data = readJSON('./map.json');
+    const data = readJSON('./data/map.json');
     const keyMap = (direction === 'left') ? _.invert(data) : data;
     
     for (let key of plaintext.split('')) {
