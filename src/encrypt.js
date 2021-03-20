@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const readJSON = require('../lib/readJSON');
 
-module.exports = (plaintext, direction='right') => {
+module.exports = (plaintext, direction = 'right') => {
     direction = direction.toLowerCase();
 
     if (direction !== 'right' && direction !== 'left') {
@@ -11,8 +11,8 @@ module.exports = (plaintext, direction='right') => {
     const cipherText = [];
     const data = readJSON('./data/map.json');
     const keyMap = (direction === 'left') ? _.invert(data) : data;
-    
-    for (let key of plaintext.split('')) {
+
+    for (const key of plaintext.split('')) {
         const shiftedKey = keyMap[key];
         if (shiftedKey === undefined) {
             throw Error(`Unknown key: ${key}`);
