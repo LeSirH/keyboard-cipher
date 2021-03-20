@@ -1,6 +1,7 @@
 # Keyboard Cipher
 [![Test](https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml/badge.svg)](https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml)
 [![Lint](https://github.com/LeSirH/keyboard-cipher/actions/workflows/lint.yml/badge.svg)](https://github.com/LeSirH/keyboard-cipher/actions/workflows/lint.yml)
+[![CodeQL](https://github.com/LeSirH/keyboard-cipher/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/LeSirH/keyboard-cipher/actions/workflows/codeql-analysis.yml)
 
 A keyboard shift cipher.
 
