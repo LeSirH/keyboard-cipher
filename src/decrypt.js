@@ -1,3 +1,1 @@
-module.exports = (plaintext, direction) => {
-    return 'WIP';
-};
+module.exports = (plaintext, direction) => 'WIP';
