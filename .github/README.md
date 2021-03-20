@@ -1,4 +1,7 @@
 # Keyboard Cipher
+[![Test](https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml/badge.svg)](https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml)
+[![Lint](https://github.com/LeSirH/keyboard-cipher/actions/workflows/lint.yml/badge.svg)](https://github.com/LeSirH/keyboard-cipher/actions/workflows/lint.yml)
+
 A keyboard shift cipher.
 
 ## Getting Started
