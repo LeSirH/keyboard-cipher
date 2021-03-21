@@ -1,12 +1,9 @@
-<h1>Keyboard Cipher</h1>
-<a href="https://trade.kraken.com/charts/KRAKEN:BTC-USD?period=1d" target="_blank"><img align="right" width="500" src="https://user-images.githubusercontent.com/46948579/111892178-b5b10180-89be-11eb-86eb-84ef79397a32.png" /></a>
-<p align="left">
-    <img src="https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml/badge.svg" />
-    <img src="https://img.shields.io/github/languages/code-size/LeSirH/keyboard-cipher?label=Size" />
-    <img src="https://img.shields.io/jsdelivr/npm/hm/keyboard-cipher?label=Downloads" />
-    <img src="https://img.shields.io/github/v/release/LeSirH/keyboard-cipher" />
-</p>
-<p>A keyboard shift cipher encryption and decryption algorithm.</p>
+# Keyboard Cipher
+![](https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml/badge.svg)
+![](https://img.shields.io/github/languages/code-size/LeSirH/keyboard-cipher?label=Size)
+![](https://img.shields.io/jsdelivr/npm/hm/keyboard-cipher?label=Downloads)
+
+A keyboard shift cipher encryption and decryption algorithm.
 
 ## Installation
 ```bash
