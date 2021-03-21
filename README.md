@@ -37,7 +37,7 @@ var cipherText = 'hello world';
 
 // Decrypt the message with 2 types of shifts: left or right.
 var leftPlainText = keyboardCipher.decrypt(cipherText, 'left');
-var rightPlainText = keyboardCipher.decrypt(plainText, 'right');
+var rightPlainText = keyboardCipher.decrypt(cipherText, 'right');
 
 // Log the results.
 console.log(leftPlainText);
