@@ -5,7 +5,7 @@ test('Returns left shift', () => {
     const ciphertext = encrypt(plaintext, 'left');
 
     expect(ciphertext).toBe('gwkki qieks');
-})
+});
 
 test('Returns right shift', () => {
     const plaintext = 'hello world';
