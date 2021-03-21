@@ -1,45 +1,70 @@
-# Keyboard Cipher
-[![Test](https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml/badge.svg)](https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml)
-[![Lint](https://github.com/LeSirH/keyboard-cipher/actions/workflows/lint.yml/badge.svg)](https://github.com/LeSirH/keyboard-cipher/actions/workflows/lint.yml)
-[![CodeQL](https://github.com/LeSirH/keyboard-cipher/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/LeSirH/keyboard-cipher/actions/workflows/codeql-analysis.yml)
+<h1>Keyboard Cipher</h1>
+<a href="https://trade.kraken.com/charts/KRAKEN:BTC-USD?period=1d" target="_blank"><img align="right" width="500" src="https://user-images.githubusercontent.com/46948579/111892178-b5b10180-89be-11eb-86eb-84ef79397a32.png" /></a>
+<p align="left">
+    <img src="https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml/badge.svg" />
+    <img src="https://img.shields.io/github/languages/code-size/LeSirH/keyboard-cipher?label=Size" />
+    <img src="https://img.shields.io/jsdelivr/npm/hm/keyboard-cipher?label=Downloads" />
+    <img src="https://img.shields.io/github/v/release/LeSirH/keyboard-cipher" />
+</p>
+<p>A keyboard shift cipher encryption and decryption algorithm.</p>
 
-A keyboard shift cipher.
+## Installation
+```bash
+$ npm install keyboard-cipher --save
+```
 
-## Getting Started
+## Examples
+
+### Encryption
+```js
+var keyboardCipher = require('keyboard-cipher');
+
+// Message you want to encrypt.
+var plainText = 'hello world';
+
+// Encrypt the message with 2 types of shifts: left or right.
+var leftCipherText = keyboardCipher.encrypt(plainText, 'left');
+var rightCipherText = keyboardcipher.encrypt(plainText, 'right');
+
+// Log the results.
+console.log(leftCipherText);
+console.log(rightCipherText);
+```
+
+### Decryption
+```js
+var keyboardCipher = require('keyboard-cipher');
+
+// Message you want to decrypt.
+var cipherText = 'hello world';
+
+// Decrypt the message with 2 types of shifts: left or right.
+var leftPlainText = keyboardCipher.decrypt(cipherText, 'left');
+var rightPlainText = keyboardcipher.decrypt(plainText, 'right');
+
+// Log the results.
+console.log(leftPlainText);
+console.log(rightPlainText);
+```
+
+## Contributing
 1. Fork the repository.
 2. Clone the forked repository.
 ```bash
-git clone git@github.com:GITHUB_USERNAME/keyboard-cipher.git
+$ git clone git@github.com:GITHUB_USERNAME/keyboard-cipher.git
 ```
-3. Install and run.
+3. Install and test.
 ```bash
-yarn install
-yarn start
+$ yarn install
+$ yarn test
+```
+4. Before committing, run ESLint.
+```bash
+$ yarn lint
 ```
 
-### Key Map
-You can find the key map [here](../map.json).
+### Security
+See the [security policy](/SECURITY.md).
 
-```json
-{
-    "`": "1",
-    "1": "2",
-    "2": "3",
-    "3": "4",
-    "4": "5",
-    "5": "6",
-    "6": "7",
-    "7": "8",
-    "8": "9",
-    "9": "0",
-    "0": "-",
-    "=": "`",
-    "q": "w",
-    "w": "e",
-    "e": "r",
-    "r": "t",
-    "t": "y",
-    "y": "u",
-    ...
-}
-```
+## License
+[MIT License](/LICENSE) :copyright: Ryan Harrington
