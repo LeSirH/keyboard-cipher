@@ -1,6 +1,6 @@
 {
   "name": "keyboard-cipher",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A keyboard shift cipher encryption and decryption algorithm.",
   "main": "index.js",
   "scripts": {
