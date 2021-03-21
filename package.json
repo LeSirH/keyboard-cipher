@@ -1,7 +1,7 @@
 {
-  "name": "@LeSirH/keyboard-cipher",
+  "name": "keyboard-cipher",
   "version": "1.0.0",
-  "description": "Keyboard shift cipher.",
+  "description": "A keyboard shift cipher encryption and decryption algorithm.",
   "main": "index.js",
   "scripts": {
     "test": "jest ./tests --passWithNoTests",
@@ -11,16 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/LeSirH/keyboard-cipher.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "keywords": [
     "keyboard",
     "cipher",
     "keyboard-cipher"
   ],
   "author": "LeSirH",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/LeSirH/keyboard-cipher/issues"
   },
