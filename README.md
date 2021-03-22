@@ -1,7 +1,7 @@
 # Keyboard Cipher
 ![](https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml/badge.svg)
 ![](https://img.shields.io/github/languages/code-size/LeSirH/keyboard-cipher?label=Size)
-![](https://img.shields.io/jsdelivr/npm/hm/keyboard-cipher?label=Downloads)
+![](https://img.shields.io/npm/dw/keyboard-cipher)
 
 A keyboard shift cipher encryption and decryption algorithm.
 
