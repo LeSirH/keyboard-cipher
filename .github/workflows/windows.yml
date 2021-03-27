@@ -1,4 +1,4 @@
-name: Test
+name: Windows
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Linux Test
+    name: Windows Test
     runs-on: windows-latest
     strategy:
       matrix:
