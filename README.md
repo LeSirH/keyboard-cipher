@@ -1,5 +1,6 @@
 # Keyboard Cipher
-![](https://github.com/LeSirH/keyboard-cipher/actions/workflows/test.yml/badge.svg)
+[![Linux](https://github.com/sh34/keyboard-cipher/actions/workflows/linux.yml/badge.svg)](https://github.com/sh34/keyboard-cipher/actions/workflows/linux.yml)
+[![Windows](https://github.com/sh34/keyboard-cipher/actions/workflows/windows.yml/badge.svg)](https://github.com/sh34/keyboard-cipher/actions/workflows/windows.yml)
 ![](https://img.shields.io/github/languages/code-size/LeSirH/keyboard-cipher?label=Size)
 ![](https://img.shields.io/npm/dw/keyboard-cipher)
 
@@ -7,7 +8,11 @@ A keyboard shift cipher encryption and decryption algorithm.
 
 ## Installation
 ```bash
-$ npm install keyboard-cipher --save
+# Install with npm
+$ npm i --save keyboard-cipher 
+
+# Install with Yarn
+$ yarn add keyboard-cipher
 ```
 
 ## Examples
@@ -16,10 +21,10 @@ $ npm install keyboard-cipher --save
 ```js
 var keyboardCipher = require('keyboard-cipher');
 
-// Message you want to encrypt.
+// Message to encrypt.
 var plainText = 'hello world';
 
-// Encrypt the message with 2 types of shifts: left or right.
+// Encrypt the message with either types of shifts: left or right.
 var leftCipherText = keyboardCipher.encrypt(plainText, 'left');
 var rightCipherText = keyboardCipher.encrypt(plainText, 'right');
 
@@ -32,10 +37,10 @@ console.log(rightCipherText);
 ```js
 var keyboardCipher = require('keyboard-cipher');
 
-// Message you want to decrypt.
+// Message to decrypt.
 var cipherText = 'hello world';
 
-// Decrypt the message with 2 types of shifts: left or right.
+// Decrypt the message with either types of shifts: left or right.
 var leftPlainText = keyboardCipher.decrypt(cipherText, 'left');
 var rightPlainText = keyboardCipher.decrypt(cipherText, 'right');
 
@@ -52,16 +57,16 @@ $ git clone git@github.com:GITHUB_USERNAME/keyboard-cipher.git
 ```
 3. Install and test.
 ```bash
-$ yarn install
-$ yarn test
+$ npm install
+$ npm run test
 ```
-4. Before committing, run ESLint.
+4. Before committing, run [ESLint](https://eslint.org/).
 ```bash
-$ yarn lint
+$ npm run lint
 ```
 
 ### Security
-See the [security policy](/SECURITY.md).
+See the [security policy](/SECURITY.md) for reporting vulnerabilities.
 
 ## License
 [MIT License](/LICENSE) :copyright: Ryan Harrington
