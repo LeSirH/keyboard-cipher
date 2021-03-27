@@ -1,14 +1,14 @@
-name: Test
+name: Linux
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, dev ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, dev ]
 
 jobs:
   build:
-    name: Test
+    name: Linux Test
     runs-on: ubuntu-latest
     strategy:
       matrix:
