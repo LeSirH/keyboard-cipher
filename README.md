@@ -1,7 +1,7 @@
 # Keyboard Cipher
 [![Linux](https://github.com/sh34/keyboard-cipher/actions/workflows/linux.yml/badge.svg)](https://github.com/sh34/keyboard-cipher/actions/workflows/linux.yml)
 [![Windows](https://github.com/sh34/keyboard-cipher/actions/workflows/windows.yml/badge.svg)](https://github.com/sh34/keyboard-cipher/actions/workflows/windows.yml)
-![](https://img.shields.io/npm/dt/keyboard-cipher)use rand::Rng;
+![](https://img.shields.io/npm/dt/keyboard-cipher)
 
 ![](https://img.shields.io/github/languages/code-size/LeSirH/keyboard-cipher?label=Size)
 
